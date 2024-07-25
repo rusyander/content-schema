@@ -1,11 +1,10 @@
 # yaml-language-server: $schema=../../../schemas/course.schema.json
 id: "{cuid}"
-title: "Название курсаааа"
+title: "Test course"
 description: |
-  ## Описание курса в формате Markdown:
+  ## Course the best
   - Пункт 1
   - Пункт 2
-  - Пункт 3
-  - Пункт [4](https://google.com)
+  - Пункт [3](https://google.com)
 lessons:
   - "lesson-1"
