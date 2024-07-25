@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "generate:types": "ts-node scripts/ts-generator.ts ./schemas",
-    "generate:id": "ts-node scripts/cuid.ts ./playground"
+    "generate:id": "ts-node scripts/cuid.ts",
+    "generate ids": "npm run generate:id ../staging-content/"
   },
   "author": "",
   "license": "ISC",
