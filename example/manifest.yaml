@@ -1,0 +1,3 @@
+# yaml-language-server: $schema=../schemas/course.schema.json
+courses:
+  - "test-course-1"
