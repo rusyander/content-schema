@@ -36,6 +36,5 @@ function watchSchemas(relativePath: string): void {
     });
 }
 
-// Использование аргумента командной строки для указания относительного пути
-const relativePath: string = process.argv[2] || "./schemas"; // По умолчанию используется './schemas'
+const relativePath: string = process.argv[2] || "./schemas";
 watchSchemas(relativePath);

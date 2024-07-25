@@ -1,9 +1,9 @@
 # yaml-language-server: $schema=../../../../../schemas/lesson.schema.json
-id: "clrn5v4ds0000bjig6dl53am4"
+id: "{cuid}"
 title: "Продвинутое программирование на Python"
 blocks:
   - type: "text"
-    id: "clrn5v4ds0001bjigeohw9tuf"
+    id: "{cuid}"
     text: |
 
       <img width="50%" src="https://s3.timeweb.com/132514fc-images-staging/content/1 0 (7).png"/>
@@ -14,11 +14,11 @@ blocks:
       Были бы мы классными поциками, то играли бы в прядки, а так рубим бабосики
 
   - type: "video"
-    id: "clrn5v4ds0002bjig9svn0n5s"
+    id: "{cuid}"
     url: "https://example.com/video/python-advanced"
 
   - type: "text"
-    id: "clrn5v4ds0003bjig6zut4e8c"
+    id: "{cuid}"
     text: |
       ## Введение в продвинутое программирование на Python
 
@@ -28,13 +28,13 @@ blocks:
       - Многопоточность и асинхронное программирование
 
   - type: "question"
-    id: "clrn5v4ds0004bjig1ndldgl0"
+    id: "{cuid}"
     answerOptions:
       - text: "Какие паттерны проектирования наиболее часто используются в Python?"
-        id: "clrn5v4ds0005bjigd0sf2ih3"
+        id: "{cuid}"
         isRight: false
       - text: "Что такое список в Python и как он используется?"
-        id: "clrn5v4ds0006bjig7s0z3n7w"
+        id: "{cuid}"
         isRight: true
     explanation: |
       ### Объяснение

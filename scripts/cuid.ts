@@ -30,13 +30,11 @@ function watchYAMLFiles(relativePath: string) {
     replaceCuidInFile(file);
   });
 
-  // Обработка при изменении файла
   watcher.on("change", (file) => {
     console.log(`Обнаружены изменения в файле: ${file}`);
     replaceCuidInFile(file);
   });
 }
 
-// Использование аргумента командной строки для указания относительного пути
-const relativePath: string = process.argv[2] || "./test-structure"; // По умолчанию используется './test-structure'
+const relativePath: string = process.argv[2] || "./test-structure";
 watchYAMLFiles(relativePath);
