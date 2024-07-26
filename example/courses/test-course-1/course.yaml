@@ -1,10 +1,13 @@
 # yaml-language-server: $schema=../../../schemas/course.schema.json
 id: "{cuid}"
+thumbnail: "https://s3.timeweb.com/132514fc-images-staging/content/logo-react.svg"
+dependencies:
+  - "test-course-2"
 title: "Test course"
 description: |
   ## Course the best
-  - Пункт 1
-  - Пункт 2
-  - Пункт [3](https://google.com)
+  - 1
+  - 2 
+  - [3](http://google.com)
 lessons:
   - "lesson-1"
